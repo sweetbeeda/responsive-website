@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #7289af4c;
+    font-family: "Inter", sans-serif;
+
+}
+
+
+.container-content {
+    background: white;
+    max-width: 640px;
+    margin-left: 30%;
+    margin-top: 7rem;
+}
+/* <!-- heaading content were start here  --> */
+
+
+.heading {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 50px;
+    text-align: center;
+
+}
+
+.heading p {
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 10px;
+    
+}
+
+/* <!-- heaading content were end here  --> */
+
+/* <!-- main content were start here --> */
+
+
+.main {
+    background-color: #d2d5da27;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.main h1 , .footer h1{
+    font-size: 1.65rem;
+    padding-bottom: 1.50rem;
+    padding-top: 4rem;
+
+}
+
+.main p{
+    padding-bottom: 1rem;
+}
+
+.main ol{
+    padding-left: 1.25rem;
+    line-height: 2rem;
+}
+
+.main ol li{
+max-width: 100%;
+font-size: 16px;
+padding-bottom: 1rem;
+}
+
+.main span{
+    color: #4E80EE;
+}
+/* <!-- main content were end here --> */
+
+hr{
+    color: rgba(128, 128, 128, 0.303);
+    border: 1px solid;
+    margin-left: 30px;
+    background-color: #d2d5da27;
+    width: 38rem;
+    
+}
+
+/* footer content were start from here  */
+
+.footer{
+    background:#d2d5da27 ;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer p{
+    padding-bottom: 1rem;
+}
+
+.footer ul {
+    padding-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.footer li span{
+    color:black;
+    font-weight: 600;
+    line-height: 2rem;
+    padding-right: 7px;
+}
+
+.footer h5{
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 2rem;
+
+}
+
+.footer h5 span{
+    color: #4E80EE;
+}
