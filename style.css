@@ -124,8 +124,9 @@ hr{
 @media screen and (max-width:480px){
         .container-content{
             width: 350px;
-            margin-left: 20px;
+            margin-left: 60px;
             margin-right: 0px;
+            margin-top: 10px;
         }
 
         .heading h1 {
