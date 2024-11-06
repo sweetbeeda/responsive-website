@@ -127,6 +127,8 @@ hr {
     .container{
         display: flex;
         justify-content: center;
+        padding-right: auto;
+        padding-left: auto;
     }
 
 
