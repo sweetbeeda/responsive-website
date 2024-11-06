@@ -16,7 +16,7 @@ body {
 
 .container-content {
     background: white;
-    max-width: 640px;
+    width: 640px;
     margin-left: 30%;
     margin-top: 7rem;
 }
@@ -67,7 +67,7 @@ body {
 }
 
 .main ol li{
-max-width: 100%;
+width: 100%;
 font-size: 16px;
 padding-bottom: 1rem;
 }
@@ -119,4 +119,79 @@ hr{
 
 .footer h5 span{
     color: #4E80EE;
+}
+
+@media screen and (max-width:480px){
+        .container-content{
+            width: 350px;
+            margin-left: 20px;
+            margin-right: 0px;
+        }
+
+        .heading h1 {
+            font-size: 1.5rem;
+            width: 20rem;
+            margin-left: -2.5rem;
+        }
+
+        .heading p{
+            font-size:0.58rem;
+        }
+
+        .main h1  {
+            font-size: 1.5rem;
+        }
+        .main p{
+            font-size: 0.85rem;
+            padding-bottom:0px ;
+            line-height: 1.5rem;
+
+        }
+
+        .main ol li {
+            font-size:0.95rem;
+            padding: 0px;
+            font-size: 12px;
+        }
+
+        .main ol{
+            padding-left: 30px;
+            padding-bottom: 2rem;
+            padding-right: 1rem;
+        }
+
+        .paraone{
+            padding-bottom: 10px;
+        }
+        hr{
+            width: 20rem;
+        }
+
+        .footer h1{
+            width: 400px;
+            font-size: 20px;
+
+        }
+
+        .footer p{
+            font-size: 0.91rem;
+            width: 100%;
+            line-height: 20px;
+            padding-bottom:6%
+        }
+
+        .footer li{
+            font-size: 0.78rem;
+        }
+
+        .footer h5{
+            font-size: 1rem;
+            padding-top: 10px;
+        }
+        .footer h5 span{
+            font-size: 1rem;
+
+        }
+
+
 }
